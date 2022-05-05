@@ -118,7 +118,7 @@ def main(logincnt):
             print(Fore.BLUE+f"[INFO] Exitting...")
             time.sleep(1)
             logincnt = False
-            main(True)
+            main(False)
     elif lusername == admin.username and lpassword == admin.password:
         print(Fore.BLACK+f"[+] Hello Admin {admin.username} You Are Welcome...")
         print(Fore.BLACK+f"[+] Print users information...")
