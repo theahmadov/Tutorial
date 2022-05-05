@@ -1,5 +1,4 @@
 import os
-from ssl import create_default_context
 import time
 from colorama import Fore,Back,Style
 
